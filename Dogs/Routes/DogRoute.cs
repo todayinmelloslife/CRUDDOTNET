@@ -1,10 +1,9 @@
-namespace Dogs.Routes; 
+using Dogs.Models; 
 
-public static class DogRouteClass // otas relacionadas a "Dogs"
+public static class DogRouteClass
 {
-    // Este é um método de extensão
-    public static void DogRoute(this WebApplication app) // "this" indica que é um método de extensão 
+    public static void DogRoute(this WebApplication app)
     {
-        app.MapGet(pattern: "Dogs", () => "Hello dogs."); 
+        app.MapGet(pattern: "Dogs", () => new DogModel(name: "duda"));
     }
 }
