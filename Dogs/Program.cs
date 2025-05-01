@@ -14,7 +14,7 @@ if (app.Environment.IsDevelopment())
 }
 
 DogRouteClass.DogRoute(app); 
-
+app.DogRoute(); //chamando o método de extensão
 
 
 
