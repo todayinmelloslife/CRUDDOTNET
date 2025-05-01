@@ -14,6 +14,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+app.MapGet("Dogs", () => "xamHello dogs."); //mapGet é um método de extensão que adiciona um manipulador de solicitação HTTP GET para o aplicativo
 
+app.UseHttpsRedirection();
 app.Run();

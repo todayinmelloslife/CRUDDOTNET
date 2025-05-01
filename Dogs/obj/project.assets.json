@@ -487,11 +487,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gmiel\\Dogs\\Dogs.csproj",
+      "projectUniqueName": "C:\\Users\\gmiel\\OneDrive\\Desktop\\CRUDDOTNET\\Dogs\\Dogs.csproj",
       "projectName": "Dogs",
-      "projectPath": "C:\\Users\\gmiel\\Dogs\\Dogs.csproj",
+      "projectPath": "C:\\Users\\gmiel\\OneDrive\\Desktop\\CRUDDOTNET\\Dogs\\Dogs.csproj",
       "packagesPath": "C:\\Users\\gmiel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gmiel\\Dogs\\obj\\",
+      "outputPath": "C:\\Users\\gmiel\\OneDrive\\Desktop\\CRUDDOTNET\\Dogs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gmiel\\AppData\\Roaming\\NuGet\\NuGet.Config"
