@@ -12,11 +12,13 @@ namespace Dogs.Migrations
     [DbContext(typeof(DogContext))]
     partial class DogContextModelSnapshot : ModelSnapshot
     {
+        // Representa o estado atual do modelo de dados.
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.4");
 
+            // Define a tabela "Dogs" com colunas ID e Nome.
             modelBuilder.Entity("Dogs.Models.DogModel", b =>
                 {
                     b.Property<Guid>("id")
