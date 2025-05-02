@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "SQLite - Dogs",
+            "group": "SQLite",
+            "database": "[dogs.sqLite](http://_vscodecontentref_/0)",
+            "username": "adm",
+            "password": ""
+        }
+    ]
+}
