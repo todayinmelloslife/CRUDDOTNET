@@ -7,6 +7,9 @@ namespace Dogs.Models
         public DogModel(string name)
         {
             Name = name;
+            id = Guid.NewGuid();
         }
+        public Guid id { get; init; }
+     
     }
 }

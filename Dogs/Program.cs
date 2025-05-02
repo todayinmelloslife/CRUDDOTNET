@@ -1,5 +1,3 @@
-using Dogs.Routes; // Importa o namespace que tem  rotas relacionadas aos cães.
-
 var builder = WebApplication.CreateBuilder(args); 
 
 builder.Services.AddEndpointsApiExplorer(); // Adiciona suporte para explorar os endpoints da API.
@@ -17,3 +15,4 @@ DogRouteClass.DogRoute(app); // Configura as rotas relacionadas aos cães.
 
 app.UseHttpsRedirection();
 app.Run(); // Inicia o aplicativo e começa a escutar as requisições.
+
