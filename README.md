@@ -32,7 +32,7 @@
 
 ###
 
-<p align="left">Passos<br>Clone o repositório:<br><br>bash<br>Copiar<br>Editar<br>git clone https://github.com/seu-usuario/dogs-api.git<br>cd dogs-api<br>Restaure os pacotes e compile:<br><br>bash<br>Copiar<br>Editar<br>dotnet restore<br>dotnet build<br>Execute a aplicação:<br><br>bash<br>Copiar<br>Editar<br>dotnet run<br>Acesse a documentação da API no navegador:<br><br>bash<br>Copiar<br>Editar<br>https://localhost:5001/swagger</p>
+<p align="left">Passos<br>Clone o repositório:<br><br>bash<br>Copiar<br>Editar<br>git clone https://github.com/seu-usuario/dogs-api.git](https://github.com/todayinmelloslife/CRUDDOTNET.git)<br>cd dogs-api<br>Restaure os pacotes e compile:<br><br>bash<br>Copiar<br>Editar<br>dotnet restore<br>dotnet build<br>Execute a aplicação:<br><br>bash<br>Copiar<br>Editar<br>dotnet run<br>Acesse a documentação da API no navegador:<br><br>bash<br>Copiar<br>Editar<br>https://localhost:5001/swagger</p>
 
 ###
 
