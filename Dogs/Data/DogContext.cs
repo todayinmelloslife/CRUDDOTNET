@@ -11,12 +11,7 @@ public DbSet<DogModel> Dogs { get; set; }
  {
      if (!optionsBuilder.IsConfigured)
      {
-        
-     var configuration = new ConfigurationBuilder()
-         .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
-         .AddJsonFile("appsettings.json")
-         .Build();
-     optionsBuilder.UseSqlite(configuration.GetConnectionString("DefaultConnection"));
+         optionsBuilder.UseSqlite("Data Source=dogs.sqLite;");
         base.OnConfiguring(optionsBuilder);
      }
  }
