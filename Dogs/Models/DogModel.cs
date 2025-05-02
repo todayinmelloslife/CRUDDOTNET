@@ -10,6 +10,11 @@ namespace Dogs.Models
             id = Guid.NewGuid();
         }
         public Guid id { get; init; }
-     
+
+     public void ChangeName(string name)
+        {
+            Name = name;
+        }
+
     }
 }
